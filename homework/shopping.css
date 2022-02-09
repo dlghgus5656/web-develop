@@ -1,0 +1,30 @@
+* {
+  font-family: "Jua", sans-serif;
+}
+
+.wrap {
+  width: 650px;
+  margin: auto;
+}
+
+.photo {
+  width: 660px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://thumb.mt.co.kr/06/2021/10/2021101904500331720_1.jpg/dims/optimize/);
+}
+
+.title {
+  padding: 20px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.btn-order {
+  margin: auto;
+  width: 100px;
+  display: block;
+}

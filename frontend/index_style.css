@@ -1,0 +1,19 @@
+* {
+  font-family: "Jua", sans-serif;
+}
+
+.wrap {
+  width: 900px;
+  margin: auto;
+}
+.card-coment {
+  color: blue;
+  font-weight: bold;
+}
+.post-box {
+  border: black solid;
+  border-radius: 5px;
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+}
