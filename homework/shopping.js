@@ -1,3 +1,3 @@
-function order() {
-  alert("주문이 완료되었습니다.");
-}
+// function order() {
+//   alert("주문이 완료되었습니다.");
+// }
