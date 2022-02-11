@@ -69,9 +69,31 @@
         width: 100px;
         display: block;
       }
+
+      .rate {
+        color: blue;
+      }
     </style>
 
     <script>
+      $(document).ready(function () {
+        get_rate();
+      });
+
+      function get_rate() {
+        $.ajax({
+          type: "GET",
+          url: "http://spartacodingclub.shop/sparta_api/rate",
+          data: {},
+          success: function (response) {
+            //console.log(response);
+            let now_rate = response["rate"];
+            $("#now-rate").text(now_rate);
+            //console.log(now_rate);
+          },
+        });
+      }
+
       function order() {
         alert("주문이 완료되었습니다.");
       }
@@ -89,6 +111,7 @@
         이 맥북은 사실 모형입니다. 기부한다 생각하시고 백만원에 맥북 모형을
         사주세요.
       </p>
+      <p class="rate">달러-원 환율: <span id="now-rate">1111.11</span></p>
 
       <div class="order-info">
         <div class="input-group mb-4">
