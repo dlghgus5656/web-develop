@@ -1,6 +1,7 @@
 # // 파일 제외
 
 # git rm --cached 파일명
+git rm --cached hi.js
 
 
 
