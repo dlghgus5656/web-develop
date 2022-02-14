@@ -10,6 +10,7 @@ db = client.dbsparta  # dbsparta라고 하는 DB 이름으로 접속할 겁니�
 
 
 # db안에 users라는 collection에서 find해라 age가 21인 다만 _id 는 나타내지 말아라
+# find로 모든 값들을 찾을땐 앞에 list를 써줘야한다?
 # {'age': 21} 조건을 이렇게 줄수도있지만 조건을 주지 않을땐 그냥 {}로 냅두면 된다
 # same_ages = list(db.users.find({'age': 21}, {'_id': False}))
 # for person in same_ages:
