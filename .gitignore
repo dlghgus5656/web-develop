@@ -8,3 +8,5 @@
 # git rm --cached 폴더명\ -r
 git rm --cached venv\ -r
 .venv
+projects/prac/venvv/*
+pythonprac/venv/*
