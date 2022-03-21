@@ -35,7 +35,6 @@ def write_review():
 @app.route('/review', methods=['GET'])
 def read_reviews():
     reviews = list(db.bookreview.find({}, {"_id": False}))
-
     return jsonify({'all_reviews': reviews})
 
 
